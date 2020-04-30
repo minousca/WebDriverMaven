@@ -29,6 +29,10 @@ public class LoginTest {
 			driver.findElement(By.id("pass")).sendKeys("");
 			driver.findElement(By.xpath("//input[@value='Log In']")).click();
 			System.out.println("changes");
+			/*
+			 * 
+			 * adding comments
+			 */
 	}
 
 	@AfterSuite
